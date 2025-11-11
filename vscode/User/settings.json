@@ -1,132 +1,147 @@
 {
-"editor.fontFamily": "'Hack Nerd Font Mono', Menlo, Monaco, 'Courier New', monospace",
-"github.copilot.nextEditSuggestions.enabled": true,
-"security.workspace.trust.untrustedFiles": "open",
-"explorer.confirmDelete": false,
-"geminicodeassist.project": "rare-platform-x964t",
-
-// --- Enables the color preview boxes ---
-"editor.colorDecorators": true, 
-
-// --- Main Transparency Setting ---
-"custom-ui-style.electron": {
-    "transparent": true,
-    "opacity": 0.93
-},
-
-// --- Base Theme ---
-"workbench.colorTheme": "Dark+ (default dark)",
-
-// --- 1. UI ELEMENT COLORS ---
-"workbench.colorCustomizations": {
-    
-    // --- Core Editor & General Text ---
-    "editor.background": "#22282e",
-    "foreground": "#dde4ea", // Main "snow" text color for UI
-    
-    // --- Text Links (V13 - New Section) ---
-    "textLink.foreground": "#82aaff", // "icy blue" from your syntax
-    "textLink.activeForeground": "#c2a9f2", // "purple" from your syntax
-    
-    // --- Sidebars (Solid Fog) ---
-    "sideBar.background": "#4a545c87",
-    "sideBar.foreground": "#dde4ea", // "Snow" text for sidebar
-    "sideBar.border": "#4a545c",
-    "sideBarActivityBarTop.border": "#dde4ea",
-    "sideBarSectionHeader.background": "#4a545c55",
-    "sideBar.dropBackground": "#4a545c87",
-    "sideBarTitle.border": "#4a545c",
-    "sideBarStickyScroll.border": "#dde4ea",
-    
-    // --- Activity Bar ---
-    "activityBar.background": "#4a545c",
-    "activityBar.foreground": "#dde4ea", // "Snow" text for activity icons
-    "activityBar.activeFocusBorder": "#dde4ea",
-    "activityBar.activeBorder": "#dde4eaaa",
-    "activityBarBadge.background": "#7e8387ad",
-    "activityBar.border": "#4a545c",
-    "activityBar.dropBorder": "#4a545c",
-    "activityBarTop.dropBorder": "#4a545c",
-    "activityBarTop.activeBorder": "#4a545c",
-
-    // --- Top Window (Title Bar) ---
-    "titleBar.activeBackground": "#4a545c",
-    "titleBar.inactiveBackground": "#4a545c",
-    "titleBar.border": "#4a545c",
-    "titleBar.activeForeground": "#dde4ea", // "Snow" text for title
-    
-    // --- Bottom Window (Status Bar) ---
-    "statusBar.background": "#4a545c",
-    "statusBar.foreground": "#dde4ea", // "Snow" text for status bar
-    "statusBar.noFolderBackground": "#4a545c",
-    "statusBar.debuggingBackground": "#4a545c",
-    "statusBarItem.remoteBackground": "#4a545c", 
-
-    // --- Bottom Panel (Terminal, Debug, etc.) ---
-    "panel.background": "#4a545c",
-    "panel.border": "#4a545c",
-    "panelTitle.activeBackground": "#3b4650",
-    "panelTitle.inactiveBackground": "#22282e",
-    "panelTitle.activeBorder": "#dde4ea",
-    "panelTitle.activeForeground": "#dde4ea", // "Snow" text for active panel tab
-    "panelTitle.inactiveForeground": "#dde4ea", // "Snow" text for inactive panel tabs
-    "panel.dropBorder": "#4a545c",
-    
-    // --- Window Panes & Sashes (V14 - New) ---
-    "sash.hoverBorder": "#dde4ea", // "snow" color for resize hover
-
-    // --- Terminal ---
-    "terminal.background": "#4a545c", 
-    "terminal.foreground": "#dde4ea", 
-
-    // --- Lists (for Extensions, Explorer) ---
-    "list.activeSelectionBackground": "#3b4650",
-    "list.activeSelectionForeground": "#FFFFFF", // Bright white for selected item
-    "list.hoverBackground": "#3b4650B3",
-    "list.inactiveSelectionBackground": "#3b4650",
-    "list.focusBackground": "#4a545c",
-    "list.focusOutline": "#4a545c",
-    "list.focusAndSelectionOutline": "#4a545c",
-    "list.activeSelectionIconForeground": "#4a545c",
-
-    // --- Buttons (e.g., "Install" in Extensions) ---
-    "button.background": "#585b5f", // Matches active tab
-    "button.foreground": "#dde4ea", // "Snow" text
-    "button.secondaryBackground": "#3b4650",
-    "button.secondaryForeground": "#dde4ea",
-    
-    // --- Editor Tabs ---
-    "editorGroupHeader.tabsBorder": "#4a545c",
-    "editorGroupHeader.noTabsBackground": "#4a545c",
-    "editorGroupHeader.tabsBackground": "#4a545c",
-    "editorGroupHeader.border": "#3b4650",
-    "editorGroup.border": "#4a545c",
-    "tab.inactiveBackground": "#4a545c",
-    "tab.activeBackground": "#3b4650",
-    "tab.activeForeground": "#dde4ea",
-    "tab.selectedBackground": "#3b4650",
-    "tab.dragAndDropBorder": "#3b4650",
-    "tab.activeBorderTop": "#3b4650",
-    "tab.activeBorder": "#4a545c",
-    "tab.activeModifiedBorder": "#4a545c",
-    "tab.unfocusedActiveBorder": "#4a545c",
-    "tab.border": "#4a545c"
-},
-
-// --- 2. SYNTAX HIGHLIGHTING COLORS ---
-"editor.tokenColorCustomizations": {
+    "editor.fontFamily": "'Hack Nerd Font Mono', Menlo, Monaco, 'Courier New', monospace",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDelete": false,
+    "geminicodeassist.project": "rare-platform-x964t",
+    "editor.colorDecorators": true,
+    "custom-ui-style.electron": {
+        "transparent": true,
+        "opacity": 0.93
+    },
+    "workbench.colorTheme": "Dark+ (default dark)",
+    "workbench.colorCustomizations": {
+        "editor.background": "#22282e",
+        "foreground": "#dde4ea",
+        "textLink.foreground": "#82aaff",
+        "textLink.activeForeground": "#c2a9f2",
+        "sideBar.background": "#4a545c87",
+        "sideBar.foreground": "#dde4ea",
+        "sideBar.border": "#4a545c",
+        "sideBarActivityBarTop.border": "#dde4ea",
+        "sideBarSectionHeader.background": "#4a545c55",
+        "sideBar.dropBackground": "#4a545c87",
+        "sideBarTitle.border": "#4a545c",
+        "sideBarStickyScroll.border": "#dde4ea",
+        "activityBar.background": "#4a545c",
+        "activityBar.foreground": "#dde4ea",
+        "activityBar.activeFocusBorder": "#dde4ea",
+        "activityBar.activeBorder": "#dde4eaaa",
+        "activityBarBadge.background": "#7e8387ad",
+        "activityBar.border": "#4a545c",
+        "activityBar.dropBorder": "#4a545c",
+        "activityBarTop.dropBorder": "#4a545c",
+        "activityBarTop.activeBorder": "#4a545c",
+        "titleBar.activeBackground": "#4a545c",
+        "titleBar.inactiveBackground": "#4a545c",
+        "titleBar.border": "#4a545c",
+        "titleBar.activeForeground": "#dde4ea",
+        "statusBar.background": "#4a545c",
+        "statusBar.foreground": "#dde4ea",
+        "statusBar.noFolderBackground": "#4a545c",
+        "statusBar.debuggingBackground": "#4a545c",
+        "statusBarItem.remoteBackground": "#4a545c",
+        "panel.background": "#4a545c",
+        "panel.border": "#4a545c",
+        "panelTitle.activeBackground": "#3b4650",
+        "panelTitle.inactiveBackground": "#22282e",
+        "panelTitle.activeBorder": "#dde4ea",
+        "panelTitle.activeForeground": "#dde4ea",
+        "panelTitle.inactiveForeground": "#dde4ea",
+        "panel.dropBorder": "#4a545c",
+        "sash.hoverBorder": "#dde4ea",
+        "terminal.background": "#4a545c",
+        "terminal.foreground": "#dde4ea",
+        "list.activeSelectionBackground": "#3b4650",
+        "list.activeSelectionForeground": "#FFFFFF",
+        "list.hoverBackground": "#3b4650B3",
+        "list.inactiveSelectionBackground": "#3b4650",
+        "list.focusBackground": "#4a545c",
+        "list.focusOutline": "#4a545c",
+        "list.focusAndSelectionOutline": "#4a545c",
+        "list.activeSelectionIconForeground": "#4a545c",
+        "button.background": "#585b5f",
+        "button.foreground": "#dde4ea",
+        "button.secondaryBackground": "#3b4650",
+        "button.secondaryForeground": "#dde4ea",
+        "editorGroupHeader.tabsBorder": "#4a545c",
+        "editorGroupHeader.noTabsBackground": "#4a545c",
+        "editorGroupHeader.tabsBackground": "#4a545c",
+        "editorGroupHeader.border": "#3b4650",
+        "editorGroup.border": "#4a545c",
+        "tab.inactiveBackground": "#4a545c",
+        "tab.activeBackground": "#3b4650",
+        "tab.activeForeground": "#dde4ea",
+        "tab.selectedBackground": "#3b4650",
+        "tab.dragAndDropBorder": "#3b4650",
+        "tab.activeBorderTop": "#3b4650",
+        "tab.activeBorder": "#4a545c",
+        "tab.activeModifiedBorder": "#4a545c",
+        "tab.unfocusedActiveBorder": "#4a545c",
+        "tab.border": "#4a545c"
+    },
+    "editor.tokenColorCustomizations": {
         "textMateRules": [
-            {"scope": ["comment", "punctuation.definition.comment"], "settings": {"foreground": "#808a93", "fontStyle": "italic"}},
-            {"scope": ["string", "punctuation.definition.string"], "settings": {"foreground": "#a6c9a2"}},
-            {"scope": ["keyword", "storage.type", "storage.modifier"], "settings": {"foreground": "#82aaff"}},
-            {"scope": ["constant.numeric", "constant.language"], "settings": {"foreground": "#f78c6cc4"}},
-            {"scope": ["entity.name.function", "support.function"], "settings": {"foreground": "#c2a9f2"}},
-            {"scope": ["variable", "entity.name.variable", "parameter.variable"], "settings": {"foreground": "#dde4ea"}}
+            {
+                "scope": [
+                    "comment",
+                    "punctuation.definition.comment"
+                ],
+                "settings": {
+                    "foreground": "#808a93",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "string",
+                    "punctuation.definition.string"
+                ],
+                "settings": {
+                    "foreground": "#a6c9a2"
+                }
+            },
+            {
+                "scope": [
+                    "keyword",
+                    "storage.type",
+                    "storage.modifier"
+                ],
+                "settings": {
+                    "foreground": "#82aaff"
+                }
+            },
+            {
+                "scope": [
+                    "constant.numeric",
+                    "constant.language"
+                ],
+                "settings": {
+                    "foreground": "#f78c6cc4"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.function",
+                    "support.function"
+                ],
+                "settings": {
+                    "foreground": "#c2a9f2"
+                }
+            },
+            {
+                "scope": [
+                    "variable",
+                    "entity.name.variable",
+                    "parameter.variable"
+                ],
+                "settings": {
+                    "foreground": "#dde4ea"
+                }
+            }
         ]
     },
-
-///CSS OVERRIDE TO FIX BLACK BAR ---
-"custom-ui-style.css": [
+    "custom-ui-style.css": [
         "div.activitybar { background-color: #4a545c !important; }",
         ".activitybar { background-color: #4a545c !important; }",
         ".monaco-workbench .activitybar { background-color: #4a545c !important; }",
@@ -135,12 +150,102 @@
     "files.autoSave": "afterDelay",
     "workbench.startupEditor": "none",
     "code-runner.runInTerminal": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ],
+            "env": {}
+        }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "pdfLaTeX",
+            "tools": [
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "latexmk 🔃",
+            "tools": [
+                "latexmk"
+            ]
+        },
+        {
+            "name": "xelatex",
+            "tools": [
+                "xelatex"
+            ]
+        },
+        {
+            "name": "pdflatex ➞ bibtex ➞ pdflatex`×2",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "xelatex ➞ bibtex ➞ xelatex`×2",
+            "tools": [
+                "xelatex",
+                "bibtex",
+                "xelatex",
+                "xelatex"
+            ]
+        }
+    ],
     "github.copilot.enable": {
         "*": false,
         "plaintext": false,
         "markdown": false,
         "scminput": false,
-        "c": false
+        "c": true,
+        "css": false
     },
-    "liveServer.settings.donotShowInfoMsg": true
+    "remote.SSH.remotePlatform": {
+        "cycle2.eecs.ku.edu": "linux"
+    },
+    "geminicodeassist.inlineSuggestions.enableAuto": false,
+    "diffEditor.codeLens": true,
+    "explorer.confirmPasteNative": false
 }
