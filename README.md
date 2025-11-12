@@ -2,39 +2,39 @@
 
 ## Dependencies
 
-### VSCode `settings.json `
+### VSCode `settings.json`
 My VSCode configuration requires specific fonts and extensions installed to work as intended.
 
 ### Font
 
-Icons and editor font:
-
-    Hack Nerd Font Mono (set in editor.fontFamily)
-
+Icons and editor font set in `editor.fontFamily`:
+```
+Hack Nerd Font Mono
+```
 ### VS Code Extensions
 
 Needed for Transparency & UI:
+```
+VSCode Custom CSS
+```
+This extension is required for the "custom-ui-style.electron" (transparency) and "custom-ui-style.css" (CSS overrides) settings to function.
 
-    VSCode Custom CSS
+Note: After installing `VSCode Custom CSS`, you must follow its instructions:
 
-        This extension is required for the "custom-ui-style.electron" (transparency) and "custom-ui-style.css" (CSS overrides) settings to function.
+- Opening the command palette.
 
-        Note: After installing this extension, you must follow its instructions, which usually involve:
+- Running `Enable Custom CSS and JS`.
 
-            Opening the command palette (Cmd+Shift+P).
-
-            Running Enable Custom CSS and JS.
-
-            Restarting VS Code. You may need to do this as an administrator and re-run it after every VS Code update.
+- Restarting VS Code.
 
 Configured Extensions:
 
-These extensions are required for all settings to be active. If you don't use these extensions, you can safely remove their settings from your settings.json.
+These extensions are required for all settings to be active. If you don't use these extensions, you can remove their settings from your `settings.json`.
 
-    GitHub Copilot (For all github.copilot.* settings)
+- `GitHub Copilot` (For all github.copilot.* settings)
 
-    Google Gemini Code Assist (For the geminicodeassist.project setting)
+- `Google Gemini Code Assist` (For the geminicodeassist.project setting)
 
-    Code Runner (For the code-runner.runInTerminal setting)
+- `Code Runner` (For the code-runner.runInTerminal setting)
 
-    Live Server (For the liveServer.settings.donotShowInfoMsg setting)
+- `Live Server` (For the liveServer.settings.donotShowInfoMsg setting)
