@@ -2,7 +2,7 @@
 
 ## Dependencies
 
-## VSCode `settings.json `
+### VSCode `settings.json `
 My VSCode configuration requires specific fonts and extensions installed to work as intended.
 
 ### Font
